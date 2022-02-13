@@ -8,8 +8,8 @@ import {
 
 const HomePage = () => (
   <Container>
+    <LogoStyled>Mateusz Łuczak</LogoStyled>
     <ContentWrapper>
-      <LogoStyled>Mateusz Łuczak</LogoStyled>
       <SectionStyled>
         React makes it painless to create interactive UIs. Design simple views
         for each state in your application, and React will efficiently update
