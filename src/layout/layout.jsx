@@ -5,10 +5,12 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 
 const Main = styled.main`
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  padding: 0;
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 const Layout = ({ children }) => (

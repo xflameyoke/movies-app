@@ -1,11 +1,15 @@
 import React from 'react';
-import StyledMain from './aboutPage.styled';
-import Header from './components/header/header';
+import Heading from '../../components/heading/heading';
+import Description from '../../components/description/description';
+import Container from '../../components/common/container/container';
+import Gallery from '../../components/gallery/gallery';
 
 const AboutPage = () => (
-  <StyledMain>
-    <Header />
-  </StyledMain>
+  <Container>
+    <Heading />
+    <Description />
+    <Gallery />
+  </Container>
 );
 
 export default AboutPage;

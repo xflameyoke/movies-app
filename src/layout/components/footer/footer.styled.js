@@ -5,7 +5,7 @@ export default styled.footer`
   vertical-align: middle;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: 50px;
-  border-top: 2px solid lightblue;
+  border-top: 2px solid ${({ theme }) => theme.colors.blue};
 `;
