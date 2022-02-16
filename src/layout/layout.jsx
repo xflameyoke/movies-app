@@ -11,6 +11,16 @@ const Main = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.blue3};
+    font-weight: bold;
+  }
 `;
 
 const Layout = ({ children }) => (

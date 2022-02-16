@@ -4,4 +4,5 @@ export const url = {
     photo1: 'https://picsum.photos/id/1018/1000/600/',
     photo2: 'https://picsum.photos/id/1015/1000/600/',
     photo3: 'https://picsum.photos/id/1019/1000/600/',
+    swapi: 'https://swapi.dev/api/films/',
 };

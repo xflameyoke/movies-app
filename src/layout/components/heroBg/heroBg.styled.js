@@ -6,7 +6,11 @@ export const ImageStyled = styled.div`
   width: 100vw;
   background-size: cover;
   background-image: url(${Background});
-  box-shadow: 0px 150px 67px 45px rgba(39, 61, 84, 1);
+  box-shadow: 0px 80px 35px 45px rgba(39, 61, 84, 1);
+
+  @media (max-width: 765px) {
+    box-shadow: none;
+  }
 `;
 
 export const OverlayStyled = styled.div`
@@ -25,8 +29,8 @@ export const TextStyled = styled.h1`
   letter-spacing: 1rem;
 
   @media (max-width: 765px) {
-    font-size: 5rem;
-    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
   }
 
   @media (max-width: 400px) {

@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export default styled.footer`
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: white;
   display: flex;
   vertical-align: middle;
   align-items: center;
