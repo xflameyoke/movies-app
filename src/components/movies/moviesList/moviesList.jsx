@@ -1,22 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import StyledUL from './moviesList.styled';
 
 const MovieList = ({
   id,
   episode_id,
   title,
-  director,
-  release_date,
-  opening_crawl,
 }) => (
-  <ul>
+  <StyledUL>
     <li key={episode_id}>
-      <Link to={`/movie/${id}`}>{title}</Link>
+      <Link to={`/movie/${id}`}>
+        <h3>{title}</h3>
+      </Link>
     </li>
-    <li>{director}</li>
-    <li>{release_date}</li>
-    <li>{opening_crawl}</li>
-  </ul>
+  </StyledUL>
 );
 
 export default MovieList;

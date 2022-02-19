@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { url } from '../../utils/urls';
-import LoadingSpinner from '../loadingSpinner/loadingSpinner';
-import MovieList from './movieList';
+import { url } from '../../../utils/urls';
+import LoadingSpinner from '../../loadingSpinner/loadingSpinner';
+import MovieList from '../moviesList/moviesList';
+import Container from '../../common/container';
 
 const Movies = () => {
   const [movies, setMovies] = useState([]);
@@ -24,21 +25,15 @@ const Movies = () => {
 
   console.log(movies);
 
-  const mappedMovies = movies.map(
-    ({ episode_id, title, director, release_date }) => (
-      <MovieList
-        key={episode_id}
-        id={episode_id}
-        title={title}
-        director={director}
-        release_date={release_date}
-      />
-    )
-  );
+  const mappedMovies = movies.map(({ episode_id, title }) => (
+    <MovieList key={episode_id} id={episode_id} title={title} />
+  ));
   return (
     <section>
-      <h2>Favouirte Movies</h2>
-      {isLoading ? <LoadingSpinner /> : mappedMovies}
+      <Container>
+        <h2>List of Starwars Movies</h2>
+        {isLoading ? <LoadingSpinner /> : mappedMovies}
+      </Container>
     </section>
   );
 };

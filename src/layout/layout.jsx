@@ -11,6 +11,7 @@ const Main = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 
   li {
     list-style-type: none;

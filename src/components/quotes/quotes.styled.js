@@ -22,11 +22,11 @@ export const Quote = styled.div`
 
   @media (max-width: 765px) {
     font-size: 1rem;
-    display: block;
   }
 
-  @media (max-width: 400px) {
-    font-size: 0.5rem;
+  @media (max-width: 420px) {
+    width: 300px;
+    font-size: 1rem;
     margin-bottom: 10px;
     padding: 0px 30px 10px 30px;
   }
