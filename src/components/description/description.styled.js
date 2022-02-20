@@ -5,6 +5,8 @@ export const Wrapper = styled.div`
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid ${({ theme }) => theme.colors.black};
 
   @media (max-width: 420px) {
     width: 300px;

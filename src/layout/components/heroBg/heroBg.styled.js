@@ -13,15 +13,14 @@ export const OverlayStyled = styled.div`
   margin-top: 10rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 `;
 
 export const TextStyled = styled.h1`
   font-size: 5rem;
   font-weight: bold;
-  color: ${({ theme }) => theme.colors.darkgrey};
-  text-shadow: 2px 2px 4px ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.white};
+  text-shadow: 2px 2px 4px ${({ theme }) => theme.colors.blue2};
   letter-spacing: 1rem;
 
   @media (max-width: 770px) {

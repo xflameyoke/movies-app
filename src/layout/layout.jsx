@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
+import { Footer, Header } from './components';
 
 const Main = styled.main`
   margin: 0;

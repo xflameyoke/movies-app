@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { url } from '../../../utils/urls';
-import LoadingSpinner from '../../loadingSpinner/loadingSpinner';
-import MovieList from '../moviesList/moviesList';
-import Container from '../../common/container';
+import { Container, LoadingSpinner, MoviesList } from '../../../components';
 
 const Movies = () => {
   const [movies, setMovies] = useState([]);
@@ -23,10 +21,8 @@ const Movies = () => {
     fetchData();
   }, []);
 
-  console.log(movies);
-
   const mappedMovies = movies.map(({ episode_id, title }) => (
-    <MovieList key={episode_id} id={episode_id} title={title} />
+    <MoviesList key={episode_id} id={episode_id} title={title} />
   ));
   return (
     <section>

@@ -1,14 +1,14 @@
 import React from 'react';
-import HeroBg from '../../layout/components/heroBg/heroBg';
-import Quotes from '../../components/quotes/quotes';
-import Container from './homePage.styled';
+import { HeroBg } from '../../layout/components/';
+import { Quotes } from '../../components/';
+import Wrapper from './homePage.styled';
 
 const HomePage = () => (
   <>
     <HeroBg />
-    <Container>
+    <Wrapper>
       <Quotes />
-    </Container>
+    </Wrapper>
   </>
 );
 
