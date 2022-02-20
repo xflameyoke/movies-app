@@ -1,14 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
+import { Footer, Header } from './components';
 
 const Main = styled.main`
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  padding: 0;
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.blue3};
+    font-weight: bold;
+  }
 `;
 
 const Layout = ({ children }) => (

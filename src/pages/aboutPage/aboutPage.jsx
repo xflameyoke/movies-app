@@ -1,11 +1,16 @@
 import React from 'react';
-import StyledMain from './aboutPage.styled';
-import Header from './components/header/header';
+import { Description, Gallery, Movies, Technologies } from '../../components/';
+import Heading from '../../components/heading/heading';
+import Wrapper from './aboutPage.styled';
 
 const AboutPage = () => (
-  <StyledMain>
-    <Header />
-  </StyledMain>
+  <Wrapper>
+    <Heading />
+    <Description />
+    <Technologies />
+    <Gallery />
+    <Movies />
+  </Wrapper>
 );
 
 export default AboutPage;
