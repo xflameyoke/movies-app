@@ -17,11 +17,11 @@ const Technologies = () => (
       <IconStyleWrapper>
         <Html5 size="32" title="html" />
         <Css3 size="32" title="css" />
-        <ReactLogo size="48" title="react" />
-        <Javascript size="48" title="javascript" />
-        <Eslint size="48" title="eslint" />
-        <Styledcomponents size="48" title="styledcomponents" />
-        <Github size="48" title="github" />
+        <ReactLogo size="32" title="react" />
+        <Javascript size="32" title="javascript" />
+        <Eslint size="32" title="eslint" />
+        <Styledcomponents size="32" title="styledcomponents" />
+        <Github size="32" title="github" />
       </IconStyleWrapper>
     </Container>
   </section>
