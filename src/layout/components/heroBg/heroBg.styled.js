@@ -23,13 +23,18 @@ export const TextStyled = styled.h1`
   text-shadow: 2px 2px 4px ${({ theme }) => theme.colors.blue2};
   letter-spacing: 1rem;
 
-  @media (max-width: 770px) {
+  @media (max-width: 769px) {
     font-size: 3.5rem;
     letter-spacing: 0.5rem;
   }
 
   @media (max-width: 420px) {
     font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+  }
+
+  @media (max-width: 300px) {
+    font-size: 1.5rem;
     letter-spacing: 0.2rem;
   }
 `;

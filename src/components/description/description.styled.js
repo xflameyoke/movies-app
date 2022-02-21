@@ -11,6 +11,10 @@ export const Wrapper = styled.div`
   @media (max-width: 420px) {
     width: 300px;
   }
+
+  @media (max-width: 300px) {
+    width: 250px;
+  }
 `;
 
 export const StyledP = styled.p`

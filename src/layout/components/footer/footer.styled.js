@@ -12,4 +12,8 @@ export default styled.footer`
   width: 100%;
   height: 50px;
   border-top: 2px solid ${({ theme }) => theme.colors.blue};
+
+  @media (max-width: 300px) {
+    font-size: 12px;
+  }
 `;

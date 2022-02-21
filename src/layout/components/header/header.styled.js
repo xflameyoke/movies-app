@@ -16,6 +16,10 @@ export const StyledLogo = styled.h1`
   @media (max-width: 420px) {
     font-size: 1rem;
   }
+
+  @media (max-width: 300px) {
+    font-size: 14px;
+  }
 `;
 
 export const StyledNavigation = styled.nav`
