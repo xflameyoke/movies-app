@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid ${({ theme }) => theme.colors.blue};
+  border-bottom: 2px solid ${({ theme }) => theme.colors.blue1};
 `;
 
 export const StyledLogo = styled.h1`

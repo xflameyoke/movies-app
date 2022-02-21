@@ -11,7 +11,7 @@ export default styled.footer`
   justify-content: center;
   width: 100%;
   height: 50px;
-  border-top: 2px solid ${({ theme }) => theme.colors.blue};
+  border-top: 2px solid ${({ theme }) => theme.colors.blue1};
 
   @media (max-width: 300px) {
     font-size: 12px;
