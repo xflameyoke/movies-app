@@ -12,7 +12,7 @@ export default styled.div`
     height: 64px;
     margin: 8px;
     border-radius: 50%;
-    border: 6px solid black;
+    border: 6px solid ${({ theme }) => theme.colors.black};
     border-color: black transparent black transparent;
     animation: spinner 1.2s linear infinite;
   }
