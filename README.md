@@ -1,6 +1,6 @@
-# Recrutiment task app
+# Movies
 
-This repository contains app called Recruitment task app. 
+This repository contains app called Movies app. 
 
 ### Executing program
 
