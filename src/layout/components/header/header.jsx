@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <StyledHeader>
-    <StyledLogo>Recruitment-App</StyledLogo>
+    <StyledLogo>Movies-App</StyledLogo>
     <StyledNavigation>
       <ul>
         <li>
